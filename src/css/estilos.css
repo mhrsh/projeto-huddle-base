@@ -1,0 +1,85 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 4rem 0 0 4rem;
+}
+
+.header img {
+    width: 25rem;
+    height: auto;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main .infos {
+    color: #fff;
+    max-width: 60rem;
+    margin-left: 7rem;
+}
+
+.main .infos h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+
+.main .infos p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-register {
+    background-color: #fff;
+    width: 18rem;
+    height: 5rem;
+    border-radius: 3rem;
+}
+
+.btn-register a {
+    color: hsla(257, 40%, 49%, 0.733);
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0 5rem 5rem 0;
+}
+
+.footer i {
+    color: #fff;
+    padding: 1.2rem;
+    margin: 1.5rem;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+}
