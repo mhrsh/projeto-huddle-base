@@ -17,7 +17,7 @@ O objetivo foi praticar **estruturação semântica em HTML**, **estilização c
 
 ---
 
-## 🔍 Visão Geral
+## Visão Geral
 
 A página apresenta uma **seção introdutória única** para a plataforma fictícia **Huddle**, que visa ajudar a construir comunidades online.  
 O design segue um **layout moderno e limpo**, com uso de **cores vivas** e **elementos vetoriais**.  
@@ -25,7 +25,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** → Estrutura e semântica
 - **CSS3** → Estilização e responsividade
@@ -36,7 +36,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Layout com **flexbox** para alinhamento responsivo.
 - **Botão interativo** com efeito hover.
@@ -46,7 +46,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## 📱 Responsividade
+## Responsividade
 
 - **1025px ou menos** → Ajuste para telas de tablets.
 - **745px ou menos** → Layout adaptado para smartphones, com fontes e espaçamentos otimizados.
@@ -54,7 +54,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 
 1. **Clonar o repositório**
 
@@ -62,7 +62,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 
 ![alt text](image.png)
 
@@ -70,7 +70,7 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto foi desenvolvido para fins educacionais.
 O design é baseado no desafio gratuito do Frontend Mentor.
