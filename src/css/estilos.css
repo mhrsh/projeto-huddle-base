@@ -3,9 +3,12 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
+body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
+}
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,6 +35,7 @@ html {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 5rem;
 }
 
 .main .infos {
@@ -56,14 +60,22 @@ html {
     background-color: #fff;
     width: 18rem;
     height: 5rem;
-    border-radius: 3rem;
+    border-radius: 4rem;
+    transition: 0.3s ease-in-out;
 }
 
-.btn-register a {
+.btn-register span {
     color: hsla(257, 40%, 49%, 0.733);
     font-weight: 600;
     font-size: 1.5rem;
-    text-decoration: none;
+}
+
+.btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+.btn-register:hover span {
+    color: #fff;
 }
 
 .footer {
@@ -75,11 +87,16 @@ html {
     padding: 0 5rem 5rem 0;
 }
 
-.footer i {
+.footer a {
     color: #fff;
-    padding: 1.2rem;
-    margin: 1.5rem;
-    text-align: center;
-    border: 1px solid white;
-    border-radius: 50%;
+    margin: 1rem;
+    padding: 0.2rem;
+}
+
+.footer i {
+    padding: 1rem;
+}
+
+.footer a:hover {
+    color: hsl(300, 69%, 71%);;
 }
