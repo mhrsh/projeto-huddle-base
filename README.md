@@ -64,9 +64,11 @@ Foi aplicado o conceito **desktop-first** na estilização responsiva.
 
 ## Screenshots
 
-![alt text](image.png)
+![alt text](src/images/layout-desktop.png)
 
-![alt text](image-1.png)
+![alt text](src/images/layout-mobile.png)
+
+
 
 ---
 
