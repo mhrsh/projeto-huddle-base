@@ -61,7 +61,9 @@ body {
     width: 18rem;
     height: 5rem;
     border-radius: 4rem;
+    cursor: pointer;
     transition: 0.3s ease-in-out;
+    box-shadow: 0.2rem 0.3rem 0.3rem hsla(0, 0%, 0%, 0.24)
 }
 
 .btn-register span {
@@ -87,16 +89,31 @@ body {
     padding: 0 5rem 5rem 0;
 }
 
+.footer ul {
+    display: flex;
+}
+
 .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    margin: 1rem;
-    padding: 0.2rem;
+    width: 4rem;
+    height: 4rem;
+    text-decoration: none;
+    border: 0.19rem solid #fff;
+    border-radius: 50%;
+    margin-left: 2rem;
 }
 
 .footer i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
 }
 
 .footer a:hover {
-    color: hsl(300, 69%, 71%);;
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
 }

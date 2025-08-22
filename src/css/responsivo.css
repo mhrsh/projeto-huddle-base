@@ -47,9 +47,18 @@
         padding-bottom: 5rem;
         gap: 3rem;
     }
+
+    .footer a {
+        padding: 2.5rem;
+    }
 }
 
 @media(max-width: 745px) {
+
+    body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-mobile.svg);
+}
 
     .header {
     padding: 2rem 0 0 2rem;
@@ -70,19 +79,26 @@
     }
 
     .main .infos h1 {
-        font-size: 2.73rem;
+        font-size: 2rem;
     }
 
     .main .infos p {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
     }
 
     .btn-register {
-        width: 30rem;
-        height: 7.3rem;
+        width: 25rem;
+        height: 5rem;
     }
 
     .footer {
         gap: 1rem;
+        font-size: 2rem;
+    }
+
+    .footer a {
+        width: 3rem;
+        height: 3rem;
+        padding: 2rem;
     }
 }
